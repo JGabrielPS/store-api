@@ -1,0 +1,14 @@
+@baseUrl = http://localhost:3000/api
+
+@version = /v1
+
+@productsRoute = /products
+
+@staticRoute = /static
+
+###TASKS METHODS
+###GET ALL PRODUCTS
+GET {{baseUrl}}{{version}}{{productsRoute}}
+
+###GET ALL PRODUCTS STATIC
+GET {{baseUrl}}{{version}}{{productsRoute}}{{staticRoute}}
